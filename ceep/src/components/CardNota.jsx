@@ -15,4 +15,4 @@ class CardNota extends Component {
     }
 }
 
-export default ListaDeNotas;
+export default CardNota;
