@@ -1,5 +1,5 @@
-import React from "react"
-import { Component } from "react";
+import React, { Component } from "react"
+import CardNota from "./CardNota"
 
 export default class ListaDeNotas extends Component {
 
@@ -7,13 +7,15 @@ export default class ListaDeNotas extends Component {
         return (
             <ul>
                 <li>
-                    <section>
-                        <header>
-                            <h3>Título</h3>
-                        </header>
+                    <CardNota/>
+                </li>
 
-                        <p>Escreva sua nota</p>
-                    </section>
+                <li>
+                    <CardNota/>
+                </li>
+
+                <li>
+                    <CardNota/>
                 </li>
             </ul>
         )
